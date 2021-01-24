@@ -28,6 +28,7 @@ call far#tools#setdefault('g:far#word_boundary', 0)
 call far#tools#setdefault('g:far#limit', 1000)
 call far#tools#setdefault('g:far#max_columns', 400)
 call far#tools#setdefault('g:far#glob_mode', 'far')
+call far#tools#setdefault('g:far#cmdparse_mode', g:far#source == 'vimgrep' ? 'vim' : 'shell')
 
 
 call far#tools#setdefault('g:far#executors', {})
